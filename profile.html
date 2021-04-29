@@ -21,14 +21,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="main-header">
-        <div class="main-header-inner">
+    <header class="main-header" id="main-nav">
+        <div class="main-header-inner"> 
             <div class="main-header-content">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-3 col-md-6 col-sm-6 headerfirstDiv">
                         <div class="header-image-div">
                             <img  class="logo" src="asset/img/MachMangso-Logo.png" alt="">
-                            <span><p>মাছমাংস</p> সুলভ, সতেজ ত্ত স্বাস্থ্যকর</span>
+                            <span><p>Green Fillet</p>Safest, Cheapest & Easiest</span>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 headerSecondDiv">
@@ -38,7 +38,7 @@
                                     <input type="text" name="searchInput" class="form-control headerSearchField" placeholder="Search Your Desired Product or Brand Here...">
                                     <span><button type="button" name="searchButton"><i class="fa fa-search"></i></button></span>
                                 </form>
-
+         
                             </div>
                         </div>
                     </div>
@@ -46,58 +46,56 @@
                         <div class="header-search-icons text-right">
                             <a href="">
                                 <img src="asset/img/hotline-logo.png" alt="">
+                                <p>Hotline</p>
                             </a>
                             <a href="">
                                 <img src="asset/img/login-symbol.png" alt="">
+                                <p>Login/Register</p>
                             </a>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
         </div>
-
     </header>
     <section class="category-section">
         <div class="category-section-inner">
             <div class="category-section-content">
                 <div class="category-item">
                     <img src="asset/img/special-offer.png" alt="">
-                    <p>Special Offer</p>
+                    <p>বিশেষ অফার</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/freshwater-fishes.png" alt="">
-                    <p>Fresh Water Fish</p>
+                    <p>মিঠাপানির মাছ</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/sea-fishes.png" alt="">
-                    <p>Sea Fish</p>
+                    <p>সামুদ্রিক মাছ</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/dry-fishes.png" alt="">
-                    <p>Dry Fish</p>
+                    <p>শুটকি</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/chicken.png" alt="">
-                    <p>Chicken</p>
+                    <p>মুরগি</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/duck.png" alt="">
-                    <p>Duck</p>
+                    <p>হাঁস</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/bird.png" alt="">
-                    <p>Bird</p>
+                    <p>পাখি</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/meat.png" alt="">
-                    <p>Meat</p>
+                    <p>মাংস</p>
                 </div>
                 <div class="category-item">
                     <img src="asset/img/ready-to-cook.png" alt="">
-                    <p>Ready TO Cook</p>
+                    <p>রেডি টু কুক</p>
                 </div>
             </div>
         </div>
@@ -130,45 +128,64 @@
               <div class="row mx-0">
                 <form action="" class="form-field">
                    <div class="table-div">
-                    <table>
+                    <table class="customerTable table-responsive">
                         <tr>
                               <td><h3>Name</h3></td>
                               <td><b>:</b></td>
                               <td>
-                                 <input type="text" name="" value="">
+                                 <input class="form-control" type="text" name="" value="">
+                                 <a href="" class="inputformButton">Edit</a>
                               </td>
                         </tr>
                         <tr>
                             <td><h3>Email Address</h3></td>
                             <td><b>:</b></td>
                             <td>
-                               <input type="email" name="" value="">
+                               <input class="form-control" type="email" name="" value="">
+                               <a href="" class="inputformButton">Edit</a>
                             </td>
                         </tr>
                         <tr>
                             <td><h3>Mobile Number</h3></td>
                             <td><b>:</b></td>
                             <td>
-                               <input type="text" name="" value="">
+                               <input class="form-control" type="text" name="" value="">
+                               <a href="" class="inputformButton">Edit</a>
                             </td>
                         </tr>
                         <tr>
                             <td><h3>Address</h3></td>
                             <td><b>:</b></td>
                             <td>
-                               <textarea rows="4" name="" value=""></textarea>
+                                <input class="form-control" type="text" name="" value="">
+                               <a href="" class="inputformButton">Edit</a>
                             </td>
                         </tr>
                         <tr>
                             <td><h3>City</h3></td>
                             <td><b>:</b></td>
                             <td>
-                               <select class="" name="">
+                               <select class="form-select" name="">
                                   <option value="">Nikunja</option>
                                   <option value="">Uttara</option>    
                                </select>
                             </td>
                         </tr>
+                        <tr>
+                            <td><h3>District</h3></td>
+                            <td><b>:</b></td>
+                            <td>
+                               <select class="form-select" name="">
+                                  <option value="">Dhaka</option>
+                                  <option value="">Chittagong</option>    
+                               </select>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td><span></span><input class="form-control" type="text" placeholder="+ Add Another Address"></td>
+                        </tr>                       
                     </table>
                  </div>
                 </form>
@@ -222,7 +239,7 @@
         </div>
         <div class="footer-second-div">
 			<div class="footer-second-content">
-			   <p class="text-center">MachMangso.com all rights reserve</p>
+			   <p class="text-center m-0">MachMangso.com all rights reserve</p>
 			</div>
         </div>
     </footer>

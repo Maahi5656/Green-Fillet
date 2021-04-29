@@ -107,13 +107,10 @@
                <div class="row mx-0">
                <div class="col-md-2 px-0">
                  <div class="left-section-content">
-                   <h2 class="title">Customer's Page</h2>
+                   <h2 class="title">Checkout</h2>
                    <div class="sidebar-content">
                      <ul>
-                       <li><a href="">My Profile</a></li>
-                       <li><a href="">My Orders</a></li>
-                       <li><a href="">My Coupons</a></li>
-                       <li><a href="">Log Out</a></li>
+                       <li><a href="">Payment Method</a></li>
                      </ul>
                    </div>
                  </div>
@@ -122,53 +119,62 @@
                   <div class="page-second-content pl-2">
                     <div class="row mx-0">
                         <div class="section-title">
-                            <h2 class="title">My Coupons</h2>
+                            <h2 class="title">Checkout</h2>
                         </div>
                     </div>
                     <div class="row mx-0">
-                      <div class="form-field table-field">
-                         <div class="table-div px-4">
-                          <table class="table d-block orderListTable" cellpadding="0" cellspacing="0">
-                              <thead>
-                                    <tr>
-                                        <th>Coupon Number</th>
-                                        <th>Discount</th>
-                                        <th>Valid Until</th>
-                                        <th>Order Status</th>
-                                    </tr>
-                              </thead>
-                              <tbody>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                              </tbody>
-
-                       
-                          </table>
+                      <div class="form-field py-4">
+                         <div class="table-div aboutPaymentContent">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="delivery-address-div paymentDiv">
+                                        <h2><span></span>পেমেন্ট প্রোক্রিয়া নির্বাচন করুন</h2>
+                                        <div class="d-flex justify-content-center">
+                                            <form action="">
+                                                <div class="paymentListDiv">
+                                                    <ul>
+                                                        <li>
+                                                            <input type="radio" name="payment" id="cod" hidden>
+                                                            <label for="cod">
+                                                                <div class="paymentTypeDiv">
+                                                                    <img src="asset/img/cash-on-delivery.png" alt="">
+                                                                    <p>Cash On Delivery (COD)</p>
+                                                                </div>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="payment" id="bkash" hidden>
+                                                            <label for="bkash">
+                                                                <div class="paymentTypeDiv">
+                                                                    <img src="asset/img/bKash.png" alt="">
+                                                                    <p>bKash Payment</p>
+                                                                </div>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <input type="radio" name="payment" id="other" hidden>
+                                                            <label for="other">
+                                                                <div class="paymentTypeDiv">
+                                                                    <img src="asset/img/other-payment-methods.png" alt="">
+                                                                    <p>Other Payment Methods</p>
+                                                            </div>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="feedbackDiv">
+                                                    <h2>ডেলিভারি ম্যানের জন্য কোন নির্দশোনা দিতে চান</h2>
+                                                    <input type="text" placeholder="উদাহরণ: বাশার নিচ এষে আমাক কল দীন">
+                                                </div>
+                                                <div class="buttonDiv">
+                                                    <a href="">Click Here To See Your Invoice</a>
+                                                    <button class="deliveryButton">Complete Order</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
                        </div>
                     </div>
                     </div>

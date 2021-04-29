@@ -107,13 +107,10 @@
                <div class="row mx-0">
                <div class="col-md-2 px-0">
                  <div class="left-section-content">
-                   <h2 class="title">Customer's Page</h2>
+                   <h2 class="title">Checkout</h2>
                    <div class="sidebar-content">
                      <ul>
-                       <li><a href="">My Profile</a></li>
-                       <li><a href="">My Orders</a></li>
-                       <li><a href="">My Coupons</a></li>
-                       <li><a href="">Log Out</a></li>
+                       <li><a href="">Delivery Address And Time</a></li>
                      </ul>
                    </div>
                  </div>
@@ -122,53 +119,59 @@
                   <div class="page-second-content pl-2">
                     <div class="row mx-0">
                         <div class="section-title">
-                            <h2 class="title">My Coupons</h2>
+                            <h2 class="title">Checkout</h2>
                         </div>
                     </div>
                     <div class="row mx-0">
                       <div class="form-field table-field">
-                         <div class="table-div px-4">
-                          <table class="table d-block orderListTable" cellpadding="0" cellspacing="0">
-                              <thead>
-                                    <tr>
-                                        <th>Coupon Number</th>
-                                        <th>Discount</th>
-                                        <th>Valid Until</th>
-                                        <th>Order Status</th>
-                                    </tr>
-                              </thead>
-                              <tbody>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                                    <tr>
-                                        <td>64333133</td>
-                                        <td>
-                                            <p class="discountText m-0">5%</p>
-                                            <a href="#" class="text-dark">(Conditions Applied)</a>
-                                        </td>
-                                        <td>20-june-20</td>
-                                        <td><p class="text-danger m-0">On The Way</p></td>
-                                    </tr>
-                              </tbody>
+                         <div class="table-div aboutDeliveryContent">
+                             <div class="container">
+                                 <div class="d-flex justify-content-center">
+                                    <div class="delivery-address-div mb-5">
+                                        <h2><span></span>ডেলিভারি ঠিকানা নির্বাচন করুন</h2>
+                                        <div class="deliveryDiv1">
+                                            <input type="checkbox" name="address" id="address1">
+                                            <label for="address1" class="d-flex align-items-center w-100">                                         
+                                                <input type="text" name=""  class="addressField" placeholder="Your Location..." id="">
+                                                <button type="button" class="deliveryButton">Edit</button>
+                                            </label> 
+                                        </div>
+                                        <div class="deliveryDiv1">
+                                            <input type="checkbox" name="address" id="address2">
+                                            <label for="address2" class="d-flex align-items-center w-100">                                         
+                                                <input type="text" name=""  class="addressField" placeholder="Your Location..." id="">
+                                                <button type="button" class="deliveryButton">Edit</button>
+                                            </label> 
+                                        </div>
+                                    </div>
+                                 </div>
 
-                       
-                          </table>
+                                 <div class="d-flex justify-content-center">
+                                    <div class="delivery-address-div">
+                                        <h2><span></span>ডেলিভারি সময় নির্বাহন করুণ </h2>
+                                        <div class="w-100 deliverySecondMainDiv">
+                                            <div class="deliveryDiv2 w-25">
+                                                <select class="" name="">
+                                                    <option value=""><small><b>Today</b></small></option>
+                                                    <option value="">Chittagong</option>    
+                                                 </select>
+                                            </div>
+                                            <div class="deliveryDiv2 w-50">
+                                                <select class="" name="">
+                                                    <option value="">7:00 A.M - 8:00 P.M</option>
+                                                    <option value="">Chittagong</option>    
+                                                 </select>
+                                            </div>
+                                            <br>
+                                            <div class="buttonDiv2 mt-4 w-75">
+                                                <button type="button" class="deliverySubmitButton mb-4">Total Amount:5678 Tk (Delivery Charge Included)</button>
+                                                <button type="button" class="deliveryButton">Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div> 
+                             </div>
+
                        </div>
                     </div>
                     </div>

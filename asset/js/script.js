@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $('.slider-section-image').owlCarousel({
          loop:true,
          margin:1,
@@ -59,8 +60,22 @@ $(document).ready(function(){
         // settings: "unslick"
         // instead of a settings object
       ]
-    })
+    });
+
   });
 
+  $(document).ready(function(event){
 
+    //sticky navbar
+    $(window).scroll(function(){
+      let scrollDistance = $(document).scrollTop();
+
+      if(scrollDistance > 60){
+        $('.main-header').addClass('sticky');
+      }else{
+        $('.main-header').removeClass('sticky');
+      }
+
+    });
+});
 
